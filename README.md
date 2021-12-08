@@ -15,7 +15,8 @@ Run these command
   - Go to http://localhost:8080/
   - Input credentials: keycloak - 1
 
-- Use postman with provided collections to test Admin API
+- Use postman test Admin API
+  - Import the provided collection
   - Go to http://localhost:9080/auth/admin/master/console/#/realms/jhipster/clients/6cc5a716-0880-47dc-b714-9a4967183b2f/credentials
   - Login
   - Click Regenerate Secret to get new client_secret
